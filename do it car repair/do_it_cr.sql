@@ -89,7 +89,8 @@ CREATE TABLE `uslugi` (
 CREATE TABLE `uslugi_faktury` (
   `id` int(11) NOT NULL,
   `id_faktury` int(11) NOT NULL,
-  `id_uslugi` int(11) NOT NULL
+  `id_uslugi` int(11) NOT NULL,
+  `cena` decimal(10,2)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
 
 --
